@@ -16,6 +16,7 @@ int main(int argc, char const *argv[])
     for ( int i = 1; i <= count; i++)
     {
         remainder = tmpNum % 10;
+        printf("remainder: %d\n",remainder);
         newNum += remainder;
         tmpNum /= 10;
         if (i == count)
