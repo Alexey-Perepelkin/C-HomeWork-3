@@ -43,7 +43,7 @@ int main(int argc, char const *argv[])
     int count_BackPar = 0;
     char c;
     int flag = 1;
-    printf("Input world -->\n");
+    printf("Input word -->\n");
     while ((c = getchar()) != '.')
     {
 
