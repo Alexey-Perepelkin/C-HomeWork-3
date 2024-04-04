@@ -61,7 +61,7 @@ int main(int argc, char const *argv[])
                 flag = 0;
             }
     }
-    if (flag)
+    if (flag ==1 && count_ForvardPar ==count_BackPar)
     {
         printf("YES");
     }
